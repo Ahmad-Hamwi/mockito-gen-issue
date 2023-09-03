@@ -1,0 +1,28 @@
+name: mockito_gen_issue
+description: A new Flutter project to reproduce a bug in the mockito library in issue !608.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: any
+  build_runner: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.2
+
+flutter:
+  uses-material-design: true
+  generate: true
